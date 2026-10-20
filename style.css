@@ -40,3 +40,8 @@ body.about-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:c
 .about-page .prose p{margin:0 0 14px;line-height:1.85;font-size:16px}
 .about-page>footer{margin-top:auto;padding:22px 0 16px}
 @media(max-width:620px){.about-page>main.prose{width:calc(100% - 36px);padding:28px 0 30px}.about-page .prose h1{font-size:28px}.about-page .prose h2{font-size:20px;margin-top:22px}.about-page .prose p{font-size:14px}}
+
+/* Four product entry points, including the Grok subscription guide. */
+.home-page .product-grid .grok-box{background:#28332f;--product-accent:#28332f}
+@media(min-width:1001px){.home-page .product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(min-width:621px) and (max-width:1000px){.home-page .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
