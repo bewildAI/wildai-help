@@ -1,5 +1,5 @@
-const CACHE="wildai-assets-e1124eca40da";
-const CORE=["/assets/optimized/style.69dc02c96c16.css","/assets/optimized/app.fd4e2fd92ca1.js","/assets/optimized/wildai-logo.3e92c2f512a7.svg","/assets/optimized/favicon.ad9efa512d54.svg"];
+const CACHE="wildai-assets-880300a74bb2";
+const CORE=["/assets/optimized/style.4a1a81978518.css","/assets/optimized/app.fd4e2fd92ca1.js","/assets/optimized/wildai-logo.3e92c2f512a7.svg","/assets/optimized/favicon.ad9efa512d54.svg"];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('wildai-assets-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',event=>{

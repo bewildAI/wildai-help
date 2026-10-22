@@ -45,3 +45,6 @@ body.about-page{min-height:100vh;min-height:100svh;display:flex;flex-direction:c
 .home-page .product-grid .grok-box{background:#28332f;--product-accent:#28332f}
 @media(min-width:1001px){.home-page .product-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(min-width:621px) and (max-width:1000px){.home-page .product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Preserve readable repair commands on small screens. */
+.markdown-body pre{max-width:100%;overflow-x:auto;padding:16px 18px;border-radius:12px;background:#f3f6f2;border:1px solid var(--line);white-space:pre;font-size:14px;line-height:1.7}.markdown-body pre code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}

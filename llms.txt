@@ -2,9 +2,12 @@
 
 > 独立中文订阅教程站，非 OpenAI / Anthropic 官方。推荐入口携带邀请码 AIG。
 
-更新日期：2026-10-20。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
+更新日期：2026-10-22。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
 
 ## 教程
+- [2026最新ChatGPT注册方法：邮箱注册全流程，小白也能学会](https://wildai.help/guides/chatgpt-registration/): 2026 年 ChatGPT 邮箱注册图文教程，介绍进入官网、选择邮箱、接收验证码和完成注册的步骤，并提供 ChatGPT 会员订阅相关阅读。
+- [2026最新Claude注册教程：从官网注册到首次使用一步到位](https://wildai.help/guides/claude-registration/): 2026 年 Claude 注册图文教程，涵盖支持地区、邮箱验证、填写账户信息、电话号码验证及常见问题，介绍原稿中的短信服务选择和相关订阅教程。
+- [ChatGPT电脑版下载安装教程2026：Windows和Mac客户端安装步骤＋常见问题解决](https://wildai.help/guides/chatgpt-desktop-installation/): ChatGPT Windows 与 Mac 电脑版下载安装图文教程，包含官网下载入口、Microsoft Store 安装、DMG 安装、登录步骤，以及加载失败和商店错误 0x80080005 的排查方法。
 - [Grok订阅教程：如何用WildAI升级马斯克全家桶？套餐与开通步骤](https://wildai.help/guides/grok-subscription/): 通过 WildAI 为自己的 Grok 账号订阅 Plus、Premium、Super 或 Ultra 的图文教程，介绍 Grok、Cursor 与 X 权益、套餐选择、账号登录、Cookie JSON 提交及订单核验，附邀请码 AIG。
 - [如何通过 WildAI 订阅 Gemini Pro / Ultra？2026 微信扫码支付图文教程](https://wildai.help/guides/gemini-subscription/): 通过 WildAI 为自己的 Google 账号订阅 Gemini 的图文教程，包含套餐选择、Google 账号登录、Cookie-Editor 安装、JSON 导出与微信扫码付款，附邀请码 AIG。
 - [如何通过 WildAI 升级 Claude Pro / Max？2026 最新完整教程（附邀请码）](https://wildai.help/guides/claude-subscription/): 通过 WildAI 升级 Claude Pro 或 Max 的完整图文教程，包含套餐选择、网络检测、Cookie 导出、付款与会员核验，附邀请码 AIG。
