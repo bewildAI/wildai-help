@@ -2,7 +2,7 @@
 
 > 独立中文订阅教程站，非 OpenAI / Anthropic 官方。推荐入口携带邀请码 AIG。
 
-更新日期：2026-10-22。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
+更新日期：2026-10-28。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
 
 ## 教程
 - [2026最新ChatGPT注册方法：邮箱注册全流程，小白也能学会](https://wildai.help/guides/chatgpt-registration/): 2026 年 ChatGPT 邮箱注册图文教程，介绍进入官网、选择邮箱、接收验证码和完成注册的步骤，并提供 ChatGPT 会员订阅相关阅读。
@@ -11,8 +11,8 @@
 - [Grok订阅教程：如何用WildAI升级马斯克全家桶？套餐与开通步骤](https://wildai.help/guides/grok-subscription/): 通过 WildAI 为自己的 Grok 账号订阅 Plus、Premium、Super 或 Ultra 的图文教程，介绍 Grok、Cursor 与 X 权益、套餐选择、账号登录、Cookie JSON 提交及订单核验，附邀请码 AIG。
 - [如何通过 WildAI 订阅 Gemini Pro / Ultra？2026 微信扫码支付图文教程](https://wildai.help/guides/gemini-subscription/): 通过 WildAI 为自己的 Google 账号订阅 Gemini 的图文教程，包含套餐选择、Google 账号登录、Cookie-Editor 安装、JSON 导出与微信扫码付款，附邀请码 AIG。
 - [如何通过 WildAI 升级 Claude Pro / Max？2026 最新完整教程（附邀请码）](https://wildai.help/guides/claude-subscription/): 通过 WildAI 升级 Claude Pro 或 Max 的完整图文教程，包含套餐选择、网络检测、Cookie 导出、付款与会员核验，附邀请码 AIG。
-- [如何通过 WildAI 订阅 ChatGPT 会员（图文教程）](https://wildai.help/guides/chatgpt-subscription/): 用 WildAI 给自己的 ChatGPT 账号开会员，全程约 5 分钟。下单前记得填写邀请码 AIG，订单立减 1美金。
-- [WildAI 是什么？bewild.ai 完整使用指南](https://wildai.help/guides/what-is-wildai/): 一、Wildai是什么？
+- [WildAI 订阅 ChatGPT 教程：Plus 开通、Pro 升级与续费失败排查](https://wildai.help/guides/chatgpt-subscription/): WildAI 订阅 ChatGPT 的图文步骤，说明 Plus 与 Pro 费用、新订阅和续费区别、付款未到账与续订失败排查，附邀请码 AIG 的 1 美元优惠说明。
+- [WildAI（BeWild.ai）是什么？官网入口、价格与使用教程](https://wildai.help/guides/what-is-wildai/): 了解 WildAI、BeWild.ai 与 bewildai 的关系，查看官网入口、ChatGPT/Claude 订阅费用、使用步骤、邀请码 AIG 和订单售后说明。
 - [WildAI 注册教程：邀请码获取、账号设置到首次充值](https://wildai.help/guides/register-tutorial/): 这篇教程从零开始，带你完成 WildAI 的注册、设置和首次订阅。整个过程大约 5 分钟。
 - [WildAI 安全吗？第三方 AI 会员代充平台安全性详解](https://wildai.help/guides/is-wildai-safe/): 用第三方平台代充 AI 会员，最大的顾虑就是安全。这篇文章从账号安全、支付安全、平台可信度三个维度，分析 WildAI 的安全性。
 - [2026年 AI 代充平台对比：WildAI vs 其他方案，哪个最划算？](https://wildai.help/guides/ai-subscription-comparison/): 同样是开 1 个月 ChatGPT Plus，三家平台的价格从 156 元到 218.88 元不等，最多相差 62.88 元。
