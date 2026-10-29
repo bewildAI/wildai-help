@@ -1,0 +1,30 @@
+/* High-contrast reading theme for help articles. Homepage keeps its own theme. */
+body.article-page{--green:#171717;--ink:#111111;--muted:#595959;--line:#e4e4e7;--pale:#f5f5f5;color:#262626;background:#fff}
+.article-page .article-layout article{color:#262626}
+.article-page article h1,.article-page article h2,.article-page article h3,.article-page article h4{color:#111111}
+.article-page article p,.article-page .markdown-body ul,.article-page .markdown-body ol,.article-page .markdown-body li{color:#262626;font-size:16px;line-height:1.95}
+.article-page .markdown-body strong,.article-page .markdown-body b{color:#111111}
+.article-page .markdown-body a{color:#171717;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.article-page .markdown-body a:hover{color:#000;text-decoration-thickness:2px}
+.article-page article .article-meta,.article-page .breadcrumb,.article-page .brand-sub{color:#595959}
+.article-page article .article-meta{font-size:12px}
+.article-page .article-sidebar .toc>a,.article-page .mobile-toc-links a{color:#404040;font-size:13px}
+.article-page .toc b,.article-page .mobile-toc summary,.article-page .back-home{color:#171717}
+.article-page .mobile-toc{background:#fafafa}
+.article-page .pill{background:#f4f4f5;color:#404040}
+.article-page article .publication-note,.article-page article .sources p,.article-page article .sources a,.article-page .markdown-body .image-caption{color:#595959;font-size:13px;line-height:1.8}
+.article-page .markdown-body th,.article-page .markdown-body td{color:#262626;border-color:#dedee1}
+.article-page .markdown-body th{background:#f4f4f5;color:#111111}
+.article-page .markdown-body img{border-color:#e4e4e7}
+.article-page .markdown-body blockquote{background:#f7f7f8;border-left-color:#a1a1aa}
+.article-page .markdown-body blockquote p{font-size:15px;color:#333}
+.article-page .markdown-body pre,.article-page .answer-box{background:#f7f7f8;border-color:#e4e4e7;color:#262626}
+.article-page .answer-box{border-left-color:#71717a}
+.article-page .article-cta{background:#f5f5f5}
+.article-page .article-cta p{color:#404040;font-size:15px}
+.article-page .article-cta .button{background:#171717;color:#fff}
+.article-page .article-cta .button:hover{background:#000}
+.article-page .article-cta .copy-code{color:#262626;background:#fff;border-color:#d4d4d8}
+.article-page .related a{color:#262626}
+.article-page .related a:hover{color:#000;text-decoration:underline}
+.article-page a:focus-visible,.article-page button:focus-visible,.article-page summary:focus-visible{outline-color:#52525b}
