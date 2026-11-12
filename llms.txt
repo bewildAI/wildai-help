@@ -5,6 +5,7 @@
 更新日期：2026-11-12。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
 
 ## 教程
+- [WildAI 开通 Claude 选哪个套餐？Pro、Max、Ultra 区别与价格（2026）](https://wildai.help/guides/claude-pro-max-ultra/): 对比 Claude Pro、Max、Ultra 的价格、用量和 Fable 5.2 额度，按使用场景选择套餐。
 - [WildAI 能开通 Claude Fable 5.2 吗？国内开通方法、Pro 免费周与额度说明（2026）](https://wildai.help/guides/claude-fable-5-2/): 了解 Fable 5.2 的能力变化、与 Fable 5.1 的差异和适用任务。
 - [2026最新ChatGPT注册方法：邮箱注册全流程，小白也能学会](https://wildai.help/guides/chatgpt-registration/): 2026 年 ChatGPT 邮箱注册图文教程，介绍进入官网、选择邮箱、接收验证码和完成注册的步骤，并提供 ChatGPT 会员订阅相关阅读。
 - [2026最新Claude注册教程：从官网注册到首次使用一步到位](https://wildai.help/guides/claude-registration/): 2026 年 Claude 注册图文教程，涵盖支持地区、邮箱验证、填写账户信息、电话号码验证及常见问题，介绍原稿中的短信服务选择和相关订阅教程。
