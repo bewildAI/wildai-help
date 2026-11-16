@@ -1,3 +1,44 @@
+// Keep the newest help articles visible on the generated home page.
+(() => {
+  const cardsContainer = document.querySelector('.cards');
+  if (!cardsContainer || cardsContainer.querySelector('[href="/guides/wildai-refund/"]')) return;
+
+  cardsContainer.insertAdjacentHTML('afterbegin', `
+    <a class="article-card" data-new-help-card="true" data-category="问题排查" data-search="WildAI 能开发票吗 收据下载 抬头修改 报销 receipt 国内发票 对公账号" href="/guides/wildai-invoice-receipt/">
+      <div class="card-top"><span class="article-icon icon-2">▤</span><span class="category category-yellow">问题排查</span></div>
+      <h3>WildAI 能开发票吗？收据下载、抬头修改与报销前核对</h3>
+      <p>说明海外 receipt 的下载位置、抬头修改和报销前核对事项。</p>
+      <div class="card-bottom"><span>约 4 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
+    </a>
+    <a class="article-card" data-new-help-card="true" data-category="问题排查" data-search="WildAI 退款怎么申请 订阅失败 未到账 账号被封 全额退款 剩余天数 客服" href="/guides/wildai-refund/">
+      <div class="card-top"><span class="article-icon icon-0">↩</span><span class="category category-yellow">问题排查</span></div>
+      <h3>WildAI 退款怎么申请？订阅失败、未到账、账号被封分别处理</h3>
+      <p>按订单状态查看退款入口、计算方式、处理时间和所需材料。</p>
+      <div class="card-bottom"><span>约 6 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
+    </a>
+  `);
+
+  const editorialNote = document.querySelector('.editorial-note');
+  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 16 日 · 新增退款处理和收据报销指南；套餐、费用及售后以订单页面为准。';
+
+  const updateNewCards = () => {
+    const input = document.querySelector('#search');
+    const terms = (input?.value || '').toLowerCase().trim().split(/\s+/).filter(Boolean);
+    const category = document.querySelector('[data-filter].active')?.dataset.filter || '全部文章';
+    document.querySelectorAll('[data-new-help-card]').forEach(card => {
+      card.hidden = !((category === '全部文章' || card.dataset.category === category) && terms.every(term => card.dataset.search.toLowerCase().includes(term)));
+    });
+    const status = document.querySelector('#results-status');
+    if (status && terms.length) status.textContent = `“${input.value.trim()}” · 找到 ${document.querySelectorAll('.article-card:not([hidden])').length} 篇文章`;
+  };
+  const scheduleUpdate = () => queueMicrotask(updateNewCards);
+  document.querySelector('#search')?.addEventListener('input', scheduleUpdate);
+  document.querySelector('#search-form')?.addEventListener('submit', scheduleUpdate);
+  document.querySelectorAll('[data-filter]').forEach(filter => filter.addEventListener('click', scheduleUpdate));
+  document.querySelector('#reset-search')?.addEventListener('click', scheduleUpdate);
+  updateNewCards();
+})();
+
 // Record outbound WildAI links without transmitting credentials or URL queries.
 (() => {
   if (!['wildai.help', 'www.wildai.help'].includes(location.hostname)) return;
