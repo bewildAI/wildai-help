@@ -1,9 +1,11 @@
 // Keep the newest help articles visible on the generated home page.
 (() => {
   const cardsContainer = document.querySelector('.cards');
-  if (!cardsContainer || cardsContainer.querySelector('[href="/guides/wildai-refund/"]')) return;
+  if (!cardsContainer) return;
 
-  cardsContainer.insertAdjacentHTML('afterbegin', `
+  if (!cardsContainer.querySelector('[href="/guides/wildai-refund/"]')) {
+
+    cardsContainer.insertAdjacentHTML('afterbegin', `
     <a class="article-card" data-new-help-card="true" data-category="问题排查" data-search="WildAI 能开发票吗 收据下载 抬头修改 报销 receipt 国内发票 对公账号" href="/guides/wildai-invoice-receipt/">
       <div class="card-top"><span class="article-icon icon-2">▤</span><span class="category category-yellow">问题排查</span></div>
       <h3>WildAI 能开发票吗？收据下载、抬头修改与报销前核对</h3>
@@ -16,10 +18,21 @@
       <p>按订单状态查看退款入口、计算方式、处理时间和所需材料。</p>
       <div class="card-bottom"><span>约 6 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
     </a>
-  `);
+    `);
+  }
+
+  if (!cardsContainer.querySelector('[href="/guides/wildai-official-site/"]')) {
+    cardsContainer.insertAdjacentHTML('afterbegin', `
+    <a class="article-card" data-new-help-card="true" data-category="入门指南" data-search="WildAI 官网是哪个 BeWild.ai bewildai 登录 订阅 客服 订单入口 AIG" href="/guides/wildai-official-site/">
+      <div class="card-top"><span class="article-icon icon-1">⌂</span><span class="category category-green">入门指南</span></div>
+      <h3>WildAI 官网是哪个？BeWild.ai 登录、订阅与客服入口</h3>
+      <p>汇总官网、登录、订阅、订单和客服入口，并说明首次订阅步骤。</p>
+      <div class="card-bottom"><span>约 6 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
+    </a>`);
+  }
 
   const editorialNote = document.querySelector('.editorial-note');
-  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 16 日 · 新增退款处理和收据报销指南；套餐、费用及售后以订单页面为准。';
+  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 17 日 · 新增 WildAI 官网、登录、订阅与客服入口指南；套餐、费用及售后以订单页面为准。';
 
   const updateNewCards = () => {
     const input = document.querySelector('#search');
