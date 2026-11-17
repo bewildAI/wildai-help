@@ -32,7 +32,7 @@
   }
 
   const editorialNote = document.querySelector('.editorial-note');
-  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 17 日 · 新增 WildAI 官网、登录、订阅与客服入口指南；套餐、费用及售后以订单页面为准。';
+  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 17 日 · 新增官网入口指南并更新退款处理说明；套餐、费用及售后以订单页面为准。';
 
   const updateNewCards = () => {
     const input = document.querySelector('#search');
