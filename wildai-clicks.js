@@ -3,6 +3,26 @@
   const cardsContainer = document.querySelector('.cards');
   if (!cardsContainer) return;
 
+  if (!cardsContainer.querySelector('[href="/guides/wildai-claude-renewal-failed/"]')) {
+    cardsContainer.insertAdjacentHTML('afterbegin', `
+    <a class="article-card" data-new-help-card="true" data-category="问题排查" data-search="WildAI Claude 续费失败 Overdue 逾期账单 有效订阅 原订单 Free 客服" href="/guides/wildai-claude-renewal-failed/">
+      <div class="card-top"><span class="article-icon icon-0">C</span><span class="category category-yellow">问题排查</span></div>
+      <h3>WildAI Claude 续费失败怎么办？有效订阅与 Overdue 账单排查</h3>
+      <p>按付款、原订单、有效订阅和逾期账单状态处理 Claude 续费失败。</p>
+      <div class="card-bottom"><span>约 7 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
+    </a>`);
+  }
+
+  if (!cardsContainer.querySelector('[href="/guides/wildai-gemini-renewal/"]')) {
+    cardsContainer.insertAdjacentHTML('afterbegin', `
+    <a class="article-card" data-new-help-card="true" data-category="订阅指南" data-search="WildAI Gemini 怎么续费 提前续费 自动续订 升档 Google 账号 Pro Ultra" href="/guides/wildai-gemini-renewal/">
+      <div class="card-top"><span class="article-icon icon-1">G</span><span class="category category-green">订阅指南</span></div>
+      <h3>WildAI Gemini 怎么续费？提前续费、自动续订和升档说明</h3>
+      <p>核对原订单和 Google 账号，查看续订、异常订单与升档处理方法。</p>
+      <div class="card-bottom"><span>约 7 分钟阅读</span><span aria-hidden="true" class="article-arrow">↗</span></div>
+    </a>`);
+  }
+
   if (!cardsContainer.querySelector('[href="/guides/wildai-refund/"]')) {
 
     cardsContainer.insertAdjacentHTML('afterbegin', `
@@ -32,7 +52,7 @@
   }
 
   const editorialNote = document.querySelector('.editorial-note');
-  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 17 日 · 新增官网入口指南并更新退款处理说明；套餐、费用及售后以订单页面为准。';
+  if (editorialNote) editorialNote.textContent = '最近更新：2026 年 11 月 18 日 · 新增 Claude 续费失败排查与 Gemini 续订说明；套餐、费用及售后以订单页面为准。';
 
   const updateNewCards = () => {
     const input = document.querySelector('#search');

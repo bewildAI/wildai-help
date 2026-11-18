@@ -2,9 +2,11 @@
 
 > 独立中文订阅教程站，非 OpenAI / Anthropic 官方。推荐入口携带邀请码 AIG。
 
-更新日期：2026-11-17。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
+更新日期：2026-11-18。基础指南核查公开页面，专题文章按提供稿件发布。价格和售后以 WildAI 订单页为准。未验证登录后付款交付流程。
 
 ## 教程
+- [WildAI Claude 续费失败怎么办？有效订阅、Overdue 账单与订单排查](https://wildai.help/guides/wildai-claude-renewal-failed/): 核对付款、原订单、Claude 有效订阅和 Overdue 账单，按订单状态处理续费失败。
+- [WildAI Gemini 怎么续费？提前续费、自动续订和升档说明](https://wildai.help/guides/wildai-gemini-renewal/): 核对原订单和 Google 账号，查看 Gemini 续订、异常订单、升档和登录报错处理方法。
 - [WildAI 官网是哪个？BeWild.ai 登录、订阅与客服入口](https://wildai.help/guides/wildai-official-site/): 汇总 WildAI 官网、登录、订阅、订单和客服入口，并说明首次注册、套餐选择、付款与会员核验步骤。
 - [WildAI 能开发票吗？收据下载、抬头修改与报销前核对](https://wildai.help/guides/wildai-invoice-receipt/): WildAI 提供海外收据 receipt，不提供国内发票和对公账号；本文说明下载、抬头修改和报销前核对事项。
 - [WildAI 退款怎么申请？订阅失败、未到账、账号被封分别处理](https://wildai.help/guides/wildai-refund/): 按订单状态说明退款入口、计算方式、处理时间和所需材料。
