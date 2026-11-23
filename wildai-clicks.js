@@ -1,3 +1,47 @@
+// Add article attribution to BeWild links inserted after HTML generation.
+(() => {
+  const pagePath = location.pathname.replace(/\/index\.html$/, '/');
+  const slug = (pagePath.split('/').filter(Boolean).pop() || 'home')
+    .replace(/\.html$/, '').replace(/[^A-Za-z0-9_.-]/g, '-').slice(0, 100);
+  const tracking = {
+    utm_source: 'wildai_help',
+    utm_medium: 'referral',
+    utm_content: slug
+  };
+
+  const updateLink = link => {
+    const target = new URL(link.href, location.href);
+    if (!['http:', 'https:'].includes(target.protocol) ||
+        !['bewild.ai', 'www.bewild.ai'].includes(target.hostname)) return;
+
+    const rel = target.searchParams.getAll('code').includes('AIG')
+      ? 'sponsored noopener' : 'noopener';
+    if (Object.entries(tracking).some(([key, value]) =>
+      target.searchParams.getAll(key).length !== 1 || target.searchParams.get(key) !== value)) {
+      const params = target.search.slice(1).split('&').filter(part =>
+        part && !Object.hasOwn(tracking, new URLSearchParams(part).keys().next().value));
+      params.push(new URLSearchParams(tracking).toString());
+      target.search = params.join('&');
+      link.href = target.href;
+    }
+    if (link.rel !== rel) link.rel = rel;
+  };
+
+  const scan = element => {
+    if (element.matches('a[href]')) updateLink(element);
+    element.querySelectorAll('a[href]').forEach(updateLink);
+  };
+
+  scan(document.documentElement);
+  new MutationObserver(records => {
+    for (const record of records) {
+      for (const node of record.addedNodes) {
+        if (node instanceof Element) scan(node);
+      }
+    }
+  }).observe(document.documentElement, {childList: true, subtree: true});
+})();
+
 // Keep the newest help articles visible on the generated home page.
 (() => {
   const cardsContainer = document.querySelector('.cards');
